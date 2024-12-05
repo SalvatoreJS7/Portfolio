@@ -1,0 +1,764 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding: 0 405px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    background-color: black;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    background-color: black;
+}
+
+.header-menu-left{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.header-menu-right{
+    display: flex;
+    gap: 10px;
+}
+
+.header-nav{
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.phone-img{
+    width: 16px;
+    height: 16px;
+}
+
+.img-arrow{
+    width: 14px;
+    height: 14px;
+}
+
+.login{
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.login:hover{
+    color: white;
+    transition: .3s;
+}
+
+/* header-one */
+
+.header-one{
+    background-color: #0F0F0F;
+    padding: 15px 0 16px 0;
+}
+
+.header-one-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-one-menu-left{
+    color: #FFF;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header-one-menu-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav-one{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-nav-one:hover{
+    color: #ccc8c89c;
+    transition: .3s;
+}
+
+.header-one-img{
+    width: 22px;
+    height: 22px;
+}
+
+/* promo */
+
+.promo{
+    background-image: url(/img/promo.png);
+    background-repeat: no-repeat;
+    min-height: 810px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.promo-text-list{
+    color: #FFF;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.promo-text{
+    padding-top: 80px;
+}
+
+/* catalog */
+
+.catalog-watch{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 730px;
+}
+
+.watch{
+    background-color: #000;
+    width: 55%;
+}
+
+.men-watch{
+    background-image: url(/img/catalog.png);
+    background-repeat: no-repeat;
+    width: 45%;
+}
+
+.title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.watch-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.watch-text{
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.watch-price{
+    color: #D0D0D0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.watch-title{
+    padding-top: 93px;
+    padding-bottom: 50px;
+}
+
+.watch-line{
+    padding-bottom: 50px;
+}
+
+.watch-img{
+    background-color: #191B1C;
+    padding: 55px 23px;
+    margin-bottom: 25px;
+}
+
+.watch-text{
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.watch-price{
+    text-align: start;
+}
+
+.men-watch-title{
+    padding-top: 483px;
+    padding-bottom: 30px;
+}
+
+.men-watch-line{
+    padding-bottom: 30px;
+    width: 138px;
+    position: absolute;
+}
+
+.men-watch-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    background-color: transparent;
+    margin-top: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* collection */
+
+.collection{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 600px;
+}
+
+.collection-img{
+    background-image: url(/img/collection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+}
+
+.collection-text-list{
+    width: 55%;
+    background-color: black;
+}
+
+.collection-title{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.collection-text{
+    padding: 40px 285px 61px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150% 
+}
+
+.collection-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    background-color: transparent;
+    margin-top: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* new-watch */
+
+.new-watch{
+    background-color: #000;
+    
+}
+
+.new-watch-title{
+    padding-top: 120px;
+    text-align: center;
+}
+
+.new-watch-line{
+    padding: 40px 0 81px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-watch-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 23px 40px;
+    padding-bottom: 150px;
+}
+
+.watch-text-2{
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.watch-price-2{
+    color: #D0D0D0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.watch-img-2{
+    background-color: #191B1C;
+    padding: 55px 23px;
+    margin-bottom: 25px;
+}
+
+.watch-text-2{
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.watch-price-2{
+    text-align: start;
+}
+
+/* brands */
+
+.brands{
+    background-color: #0F0F0F;
+}
+
+.brands-title{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.brands-title-line{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.brands-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+
+/* footer */
+
+.footer{
+    background-image: url(/img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 101px;
+}
+
+.footer-title{
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.about{
+    margin-right: 31px;
+    max-width: 350px;
+}
+
+.about-text{
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.categories{
+    margin-right: 92px;
+    max-width: 300px;
+}
+
+.categories-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item-4{
+    grid-column-start: span 2;
+}
+
+.categories-link{
+    background-color: #0F0F0F;
+    padding: 10px 20px;
+    color: #D0D0D0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.categories-link:hover{
+    background-color: #333131;
+    transition: .2s;
+}
+
+.info{
+    max-width: 350px;
+}
+
+.info-text{
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 37px;
+    width: 350px;
+}
+
+.footer-form{
+    display: flex;
+}
+
+.footer-input{
+    height: 42px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.40);
+    color: #ffffff;
+}
+
+.footer-btn{
+    background-color: #0F0F0F;
+    border: none;
+    color: var(--white, #FFF);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.footer-btn:hover{
+    background-color: #292626;
+    transition: .2s;
+}
+
+/* footer-end */
+
+.footer-end{
+    background-color: #0F0F0F;
+}
+
+.footer-end-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0;
+}
+
+.footer-text{
+    color: #D0D0D0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-link{
+    color: #D0D0D0;
+    text-align: right;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.menu-mobile,
+.menu-btn{
+    display: none;
+}
+
+/* adaptation */
+
+@media (max-width: 1800px){
+    .min-container{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .watch-img{
+        width: 60%;
+    }
+    .watch-price,
+    .watch-text{
+        margin-left: 22px;
+    }
+    .collection-text{
+        padding: 40px 185px 61px;
+    }
+    .new-watch-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1440px) {
+    .container{
+        padding: 0 50px;
+    }
+    .header,
+    .header-one-menu{
+        display: flex;
+        justify-content: center;
+    }
+    .header-menu-left{
+        margin-right: 10px;
+    }
+    .header-one-menu-left{
+        margin-right: 20px;
+    }
+    .collection-text{
+        padding: 40px 145px 61px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .watch-list-item-last{
+        display: none;
+    }
+    .brands-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
+@media (max-width: 1100px){
+    .collection-text{
+        padding: 40px 105px 61px;
+    }
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px 0;
+    }
+}
+
+@media (max-width: 950px) {
+    .new-watch-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .catalog-watch,
+    .collection{
+        display: flex;
+        flex-direction: column;
+    }
+    .collection-img{
+        display: none;
+    }
+    .collection{
+        display: block;
+        background-color: #000;
+    }
+    .watch,
+    .men-watch,
+    .collection-img,
+    .collection-text-list{
+        width: 100%;
+    }
+    .watch-list-item-last{
+        display: block;
+    }
+    .watch{
+        padding-bottom: 100px;
+    }
+    .men-watch{
+    padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 750px) {
+    .header-one-menu{
+       display: flex;
+       justify-content: space-between;
+    }
+    .menu-mobile{
+        display: none;
+    }
+    .menu-mobile.menu--open{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        height: 80vh;
+        z-index: 5;
+        text-align: center;
+        padding-top: 140px;
+    }
+    .menu-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .menu-btn span{
+        height: 3px;
+        width: 100%;
+        background-color: white;
+    }
+    .header-one-menu-right{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .login{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #FFF;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .login:hover{
+        color: #ccc8c89c;
+        transition: .3s;
+    }
+    .header-nav-one,
+    .login{
+        font-size: 4vh;
+        display: block;
+        padding: 30px 0;
+    }
+    .header-one-menu-left{
+        z-index: 10;
+    }
+}
+
+@media (max-width: 660px){
+    .watch-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .watch-list-item{
+        padding: 20px 0;
+    }
+    .watch-img{
+        width: 40%;
+    }
+    .watch-text,
+    .watch-price,
+    .watch-text-2,
+    .watch-price-2{
+        text-align: center;
+    }
+    .new-watch-list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .brands-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .about{
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .categories{
+        margin-right: 0;
+        max-width: 100%;
+    }
+    .info,
+    .info-text{
+        max-width: 100%;
+    }
+
+}
